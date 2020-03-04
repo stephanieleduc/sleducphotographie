@@ -17,6 +17,10 @@ html, body {
     font-family: 'Caladea', serif;
 }
 
+.brand {
+    font-size: 2em;
+}
+
 /* General */
 .padding {
     padding-bottom: 2rem;
