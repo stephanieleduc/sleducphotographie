@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caladea&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins|Raleway&display=swap');
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    color: #222;
+}
+
+.spartan, p{
+    font-family: 'Spartan', sans-serif;
+}
+
+.caladea{
+    font-family: 'Caladea', serif;
+}
+
+/* General */
+.padding {
+    padding-bottom: 2rem;
+}
+
+p.lead {
+    font-size: 1.2em;
+}
+
+/* Navbar */
+.navbar{
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+    font-family: 'Raleway', serif;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+/* Carousel */
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.btn-primary{
+    background-color: crimson;
+    border: 1px solid crimson;
+}
+
+.btn-primary:hover{
+    background-color: darkred;
+    border: 1px solid darkred;
+}
+
+/* Jumbotron */
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+/* À propos */
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.welcome hr {
+    border-top: 1px solid crimson;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.fa-code {
+    color: crimson;
+}
+
+.fa-bold {
+    color: darkred;
+}
+
+.fa-code, .fa-bold {
+    font-size: 3em;
+    margin: 1rem;
+}
+
+/* Spoiler content */
+.fun {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+/* Social media */
+.social a {
+    font-size: 4em;
+    padding: 3rem;
+}
+
+.fa-facebook, .fa-instagram, .fa-pinterest {
+    color: dimgrey;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-pinterest:hover {
+    color: crimson;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+hr.light-100 {
+    width: 100%;
+    border-top: 1px solid #d5d5d5;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #d5d5d5;
+
+}
+
+
+/* Media queries */
+@media (max-width: 992px) {
+    social a {
+        font-size: 3.5em;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption{
+        top: 50%;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 350%;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+
+    .display-4{
+        font-size: 200%;
+    }
+
+    social a {
+        font-size: 3em;
+        padding: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption{
+        top: 40%;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 250%;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 110%;
+    }
+
+    .carousel-caption .btn {
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+
+    .carousel-indicators{
+        display: none;
+    }
+
+    .display-4{
+        font-size: 160%;
+    }
+
+    social a {
+        font-size: 2em;
+        padding: .7rem;
+    }
+}
+
+/* Firefox Bug Fix */
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+  /* Fixed Background Image */
+  figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0!important;
+  }
+  .fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #fixed {
+    background-image: url('../images/fixed.jpg');
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+
+  /* Bootstrap Padding Fix */
+  [class*="col-"] {
+      padding: 1rem;
+  }
