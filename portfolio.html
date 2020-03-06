@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>S.Leduc Photographie | Accueil</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/lightbox.css" rel="stylesheet" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link href="./css/style.css" rel="stylesheet">
+    <script src="assets/jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -41,12 +43,27 @@
         </div>
     </nav>
 
+    <!-- Page en construction -->
     <div class="container-fluid padding">
         <div class="row text-center">
             <div class="col-md-12">
                 <p>Page en construction. Revenez bientôt. Merci de votre compréhension. :) </p>
             </div>
         </div>
+    </div>
+
+    <!-- Container -->
+    <div class="container-fluid padding">
+            <div class="flex-container">
+                <div><a href="./images/img1.jpg" data-lightbox="gallery"><img src="./images/img1.jpg" class="cover"></a></div>
+                <div><a href="./images/img2.JPG" data-lightbox="gallery"><img src="./images/img2.JPG" class="cover"></a></div>
+                <div><a href="./images/img3.JPG" data-lightbox="gallery"><img src="./images/img3.JPG" class="cover"></a></div>
+                <div><a href="./images/img4.JPG" data-lightbox="gallery"><img src="./images/img4.JPG" class="cover"></a></div>
+                <div><a href="./images/img5.jpg" data-lightbox="gallery"><img src="./images/img5.jpg" class="cover"></a></div>
+                <div><a href="./images/img6.jpg" data-lightbox="gallery"><img src="./images/img6.jpg" class="cover"></a></div>
+                <div><a href="./images/img7.jpg" data-lightbox="gallery"><img src="./images/img7.jpg" class="cover"></a></div>
+                <div><a href="./images/img8.jpg" data-lightbox="gallery"><img src="./images/img8.jpg" class="cover"></a></div>
+            </div>
     </div>
 
 
@@ -69,5 +86,7 @@
         </div>
     </footer>
 
+    <!-- Lightbox Script -->
+    <script src="./assets/lightbox.js"></script>
 </body>
 </html>
