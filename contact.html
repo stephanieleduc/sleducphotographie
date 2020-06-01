@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>S.Leduc Photographie | Accueil</title>
+    <title>S.Leduc Photographie | Contact</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -42,14 +42,67 @@
     </nav>
 
 
-    <div class="container-fluid padding">
+    <div class="container">
         <div class="row text-center">
-            <div class="col-md-12">
-                <p>Page en construction. Revenez bientôt. Merci de votre compréhension. :) </p>
-                <input type="text" class="field" placeholder="Votre nom complet"><br/>
-                <input type="email" class="field" placeholder="Votre adresse courriel"><br/>
-                <input type="tel" class="field" placeholder="Votre numéro de téléphone"><br/>
-                <textarea class="field" placeholder="Votre message"></textarea>
+            <div class="">
+
+                <div class="container-fluid padding">
+                    <div class="row padding">
+                        
+                        
+
+
+                        <div class="col-lg-6">
+                            <br><h1 class="caladea">Contactez-moi!</h1><br>
+                            <!--- Contact form -->
+                            <form class="" method="POST" action="mailto:sleduc1995@gmail.com">
+                                <div class="form-group">
+                                    <input type="text" name="nom" class="form-control" placeholder="Votre nom complet">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Votre adresse courriel">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" name="telephone" class="form-control" placeholder="Votre numéro de téléphone">
+                                </div>
+                                <div class="form-group">
+                                    <select name="preference" class="form-control">
+                                        <option value="">Je préfère être contacté(e) par Email</option>
+                                        <option value="">Je préfère être contacté(e) par Téléphone</option>
+                                        <option value="">Je préfère être contacté(e) par Message texte</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" rows="6" placeholder="Votre message"></textarea>
+                                </div>  <br>  
+                                <button type="submit" class="btn btn-primary btn-lg ">Envoyer</button>
+                                
+                            </form>
+
+                            <!--- Connect -->
+                            <div class="container-fluid">
+                                <div class="row text-center ">
+                                    <div class="col-12">
+                                        <br/>
+                                        <div class="col-12 social padding">
+                                            <a href="https://www.facebook.com/sleducphotographie" target="blank"><i class="fab fa-facebook"></i></a>
+                                            <a href="https://www.instagram.com/sleduc95/" target="blank"><i class="fab fa-instagram"></i></a>
+                                            <a href="https://www.pinterest.ca/stoufisokay/" target="blank"><i class="fab fa-pinterest"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--- Photo -->
+                        <div class="col-lg-6">
+                            <img src="images/moi.jpg" class="img-fluid">
+                        </div>
+
+                    </div>
+                    
+                </div>
+
             </div>
         </div>
     </div>
