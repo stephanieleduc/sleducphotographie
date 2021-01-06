@@ -159,29 +159,44 @@ footer a {
 
 }
 
-/* Lightbox à changer le cover avec media queries*/
-.cover {
-    object-fit: cover;
-    width: 400px;
-    height: 280px;
-    overflow: hidden;
-}
-
-.flex-container{
+/* PORTFOLIO */
+.row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-}
-
-.flex-container > div{
-    margin: 10px;
-    width: 400px;
-    height: 280px;  
-}
-
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 23%;
+    max-width: 23%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
 
 
 /* Media queries */
+
+/* PORTFOLIO */
+@media screen and (max-width: 1000px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+.column {
+    flex: 100%;
+    max-width: 100%;
+    }
+}
+
+/* OTHERS */
 @media (max-width: 992px) {
     social a {
         font-size: 3.5em;
