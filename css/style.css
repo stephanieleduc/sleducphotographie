@@ -60,6 +60,14 @@ p.lead {
     font-weight: 400;
 }
 
+.dropdown-item.active {
+    background-color: crimson;
+}
+
+.dropdown-menu a:active {
+    background-color: crimson;
+}
+
 /* ---------- CAROUSEL ---------- */
 .carousel {
     position: relative;
