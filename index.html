@@ -51,152 +51,157 @@
         </div>
     </nav>
 
-    <!--- Image Slider -->
-    <div id="slides" class="carousel slide" data-ride="carousel" data-interval="6500">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/carousel1.jpg" alt="Photo maternité">
-                <div class="carousel-caption">
-                    <h1 class="display-2 caladea">S.Leduc</h1>
-                    <h3>Photographe</h3>
-                    <a href="portraits.html"><button type="button" class="btn btn-primary btn-lg">PORTFOLIO</button></a>
-                    <a href="contact.html"><button type="button" class="btn btn-outline-light btn-lg">CONTACT</button></a>
-                    
+
+    <div class="content">
+        <!--- Image Slider -->
+        <div id="slides" class="carousel slide" data-ride="carousel" data-interval="6500">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/carousel1.jpg" alt="Photo maternité">
+                    <div class="carousel-caption">
+                        <h1 class="display-2 caladea">S.Leduc</h1>
+                        <h3>Photographe</h3>
+                        <a href="portraits.html"><button type="button" class="btn btn-primary btn-lg">PORTFOLIO</button></a>
+                        <a href="contact.html"><button type="button" class="btn btn-dark btn-lg">CONTACT</button></a>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel2.JPG">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel3.jpg">
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="images/carousel2.JPG">
-            </div>
-            <div class="carousel-item">
-                <img src="images/carousel3.jpg">
+            <a href="#slides" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="fas fa-chevron-left fa-2x"></span>
+            </a>
+            <a href="#slides" class="carousel-control-next" role="button" data-slide="next">
+                <span class="fas fa-chevron-right fa-2x"></span>
+            </a>
+        </div>
+
+        <!--- Jumbotron -->
+        <div class="container-fluid">
+            <div class="row jumbotron">
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                    <p class="lead">Si vous avez déjà eu votre scéance avec moi, connectez-vous à l'espace client à 
+                        l'aide du mot de passe que je vous ai donné pour choisir vos photos.</p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                    <a href="espaceclient.html"><button type="button" class="btn btn-outline-secondary btn-lg">Bientôt disponible</button></a>
+                </div>
             </div>
         </div>
-        <a href="#slides" class="carousel-control-prev" role="button" data-slide="prev">
-            <span class="fas fa-chevron-left fa-2x"></span>
-        </a>
-        <a href="#slides" class="carousel-control-next" role="button" data-slide="next">
-            <span class="fas fa-chevron-right fa-2x"></span>
-        </a>
-    </div>
 
-    <!--- Jumbotron -->
-    <div class="container-fluid">
-        <div class="row jumbotron">
-            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                <p class="lead">Si vous avez déjà eu votre scéance avec moi, connectez-vous à l'espace client à 
-                    l'aide du mot de passe que je vous ai donné pour choisir vos photos.</p>
+        <!--- Catégories -->
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4 caladea">Catégories</h1>
+                    <hr>
+                </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-                <a href="espaceclient.html"><button type="button" class="btn btn-outline-secondary btn-lg">Bientôt disponible</button></a>
+        </div> 
+        <!--- Cards -->
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/portrait.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title caladea">Portraits</h4>
+                            <!-- <p class="card-text">Petit résumé de l'article</p> -->
+                            <a href="portraits.html" class="btn btn-primary">Voir plus</a>
+                            <a href="tarifs.html" class="btn btn-outline-secondary">Voir les tarifs</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/projet.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title caladea">Projets / Landscapes</h4>
+                            <!-- <p class="card-text">Petit résumé de l'article</p> -->
+                            <a href="conceptart.html" class="btn btn-primary">Voir plus</a>
+                            <!-- <a href="" class="btn btn-outline-secondary">En savoir plus</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/faune.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title caladea">Faune & Flore</h4>
+                            <!-- <p class="card-text">Petit résumé de l'article</p> -->
+                            <a href="fauneetflore.html" class="btn btn-primary">Voir plus</a>
+                            <!-- <a href="tarifs.html" class="btn btn-outline-secondary">Voir les tarifs</a> -->
+                        </div>
+                    </div>
+                </div>
             </div>
+            <hr class="my-4">
         </div>
-    </div>
 
-    <!--- Catégories -->
+    <!--- Welcome Section -->
     <div class="container-fluid padding">
         <div class="row welcome text-center">
             <div class="col-12">
-                <h1 class="display-4 caladea">Catégories</h1>
+                <h1 class="display-4 caladea">À propos de moi</h1>
                 <hr>
-            </div>
-        </div>
-    </div> 
-    <!--- Cards -->
-    <div class="container-fluid padding">
-        <div class="row padding">
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="./images/portrait.jpg">
-                    <div class="card-body">
-                        <h4 class="card-title caladea">Portraits</h4>
-                        <!-- <p class="card-text">Petit résumé de l'article</p> -->
-                        <a href="portraits.html" class="btn btn-primary">Voir plus</a>
-                        <a href="tarifs.html" class="btn btn-outline-secondary">Voir les tarifs</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="./images/projet.jpg">
-                    <div class="card-body">
-                        <h4 class="card-title caladea">Projets / Landscapes</h4>
-                        <!-- <p class="card-text">Petit résumé de l'article</p> -->
-                        <a href="conceptart.html" class="btn btn-primary">Voir plus</a>
-                        <!-- <a href="" class="btn btn-outline-secondary">En savoir plus</a> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img class="card-img-top" src="./images/faune.jpg">
-                    <div class="card-body">
-                        <h4 class="card-title caladea">Faune & Flore</h4>
-                        <!-- <p class="card-text">Petit résumé de l'article</p> -->
-                        <a href="fauneetflore.html" class="btn btn-primary">Voir plus</a>
-                        <!-- <a href="tarifs.html" class="btn btn-outline-secondary">Voir les tarifs</a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="my-4">
-    </div>
-
-<!--- Welcome Section -->
-<div class="container-fluid padding">
-    <div class="row welcome text-center">
-        <div class="col-12">
-            <h1 class="display-4 caladea">À propos de moi</h1>
-            <hr>
-            <div class="col-12">
-                <p class="lead">Je m'appelle Stéphanie et je suis passionnée des arts visuels depuis aussi longtemps que je peux me souvenir. D'ailleurs, je pense qu'immortaliser les moments qui nous sont chers est très important. En ce qui me concerne, je n'ai jamais été à l'aise devant des caméras, mais aujourd'hui, j'aurais aimé avoir plus de photos.</p>
-                <p class="lead">J'ai surtout appris la photographie par moi-même. À l'aide d'essais-erreurs ou même de vidéos Youtube, j'ai développer mon oeil artistique sur plusieurs années et je m'améliore encore! Si mon travail vous plait, n'hésitez pas à booker une scéance avec moi, je saurais vous mettre à l'aise devant la caméra et capturer vos plus beaux moments.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-   <!--- Fixed background -->
-    <figure>
-        <div class="fixed-wrap">
-            <div id="fixed">
-            </div>
-        </div>
-    </figure>
-
-    <!--- Connect -->
-    <div class="container-fluid padding">
-        <div class="row text-center padding">
-            <div class="col-12">
-                <br/>
-                <h2 class="caladea">Suivez-moi</h2>
-                <div class="col-12 social padding">
-                    <a href="https://www.facebook.com/sleducphotographe" target="blank"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/s.leduc_photographe/" target="blank"><i class="fab fa-instagram"></i></a>
-                    <!-- <a href="https://www.pinterest.ca/stoufisokay/" target="blank"><i class="fab fa-pinterest"></i></a> -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--- Footer -->
-    <footer>
-        <div class="container-fluid padding">
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <img src="images/logo-blanc.png">
-                    <br/>
-                    <p>Stéphanie Leduc</p>
-                    <p>sleduc1995@gmail.com</p>
-                    <p>Blainville</p>
-                </div>
                 <div class="col-12">
-                    <hr class="light-100">
-                    <h5>&copy; sleduc.com</h5>
+                    <p class="lead">Je m'appelle Stéphanie et je suis passionnée des arts visuels depuis aussi longtemps que je peux me souvenir. D'ailleurs, je pense qu'immortaliser les moments qui nous sont chers est très important. En ce qui me concerne, je n'ai jamais été à l'aise devant des caméras, mais aujourd'hui, j'aurais aimé avoir plus de photos.</p>
+                    <p class="lead">J'ai surtout appris la photographie par moi-même. À l'aide d'essais-erreurs ou même de vidéos Youtube, j'ai développer mon oeil artistique sur plusieurs années et je m'améliore encore! Si mon travail vous plait, n'hésitez pas à booker une scéance avec moi, je saurais vous mettre à l'aise devant la caméra et capturer vos plus beaux moments.</p>
                 </div>
             </div>
-
         </div>
-    </footer>
+    </div>
+
+    <!--- Fixed background -->
+        <figure>
+            <div class="fixed-wrap">
+                <div id="fixed">
+                </div>
+            </div>
+        </figure>
+
+        <!--- Connect -->
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-12">
+                    <br/>
+                    <h2 class="caladea">Suivez-moi</h2>
+                    <div class="col-12 social padding">
+                        <a href="https://www.facebook.com/sleducphotographe" target="blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/s.leduc_photographe/" target="blank"><i class="fab fa-instagram"></i></a>
+                        <!-- <a href="https://www.pinterest.ca/stoufisokay/" target="blank"><i class="fab fa-pinterest"></i></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--- Footer -->
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <img src="images/logo-blanc.png">
+                        <br/>
+                        <p>Stéphanie Leduc</p>
+                        <p>sleduc1995@gmail.com</p>
+                        <p>Blainville</p>
+                    </div>
+                    <div class="col-12">
+                        <hr class="light-100">
+                        <h5>&copy; sleduc.com</h5>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+    
+
+    
 
 </body>
 </html>

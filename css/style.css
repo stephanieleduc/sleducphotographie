@@ -35,6 +35,11 @@ p.lead {
     font-size: 1.2em;
 }
 
+.content {
+    position: absolute;
+    top: 0px;
+}
+
 /* ---------- NAVBAR ---------- */
 .navbar{
     padding: .8rem;
@@ -44,13 +49,15 @@ p.lead {
 
 .navbar-nav li {
     padding-right: 20px;
-    font-family: 'Raleway', serif;
+    font-family: 'raleway', serif;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .nav-link {
     font-size: 1.1em !important;
     color:#333;
+    font-weight: 400;
 }
 
 /* ---------- CAROUSEL ---------- */
@@ -65,7 +72,7 @@ p.lead {
 
 .carousel-caption{
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
 }
 
@@ -219,7 +226,16 @@ footer a {
         font-size: 3.5em;
         padding: 2rem;
     }
+
+    .content {
+        position: relative;
+    }
+
+    .carousel-caption{
+        top: 45%;
+    }
 }
+
 
 @media (max-width: 768px) {
     .carousel-caption{
