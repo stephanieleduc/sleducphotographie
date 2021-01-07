@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Caladea&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins|Raleway&display=swap');
 
-
+/* ---------- GLOBAL ---------- */
 html, body {
     height: 100%;
     width: 100%;
@@ -21,7 +21,12 @@ html, body {
     font-size: 2em;
 }
 
-/* General */
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ---------- GENERAL ---------- */
 .padding {
     padding-bottom: 2rem;
 }
@@ -30,9 +35,10 @@ p.lead {
     font-size: 1.2em;
 }
 
-/* Navbar */
+/* ---------- NAVBAR ---------- */
 .navbar{
     padding: .8rem;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, .1);
 }
 
 .navbar-nav li {
@@ -45,7 +51,7 @@ p.lead {
     font-size: 1.1em !important;
 }
 
-/* Carousel */
+/* ---------- CAROUSEL ---------- */
 .carousel-inner img{
     width: 100%;
     height: 100%;
@@ -80,13 +86,18 @@ p.lead {
     border: 1px solid darkred;
 }
 
-/* Jumbotron */
+#slides {
+    /* box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1); */
+}
+
+/* ---------- JUMBOTRON ---------- */
 .jumbotron {
     padding: 1rem;
     border-radius: 0;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, .1);
 }
 
-/* À propos */
+/* ---------- À PROPOS ---------- */
 .welcome {
     width: 75%;
     margin: 0 auto;
@@ -113,13 +124,16 @@ p.lead {
     margin: 1rem;
 }
 
-/* Spoiler content */
+/* ---------- PRICING PAGE ---------- */
+
+
+/* ---------- SPOILER CONTENT ---------- */
 .fun {
-    width: 100%;
-    margin-bottom: 2rem;
+    width: 70%;
+    margin-bottom: 0.5rem;
 }
 
-/* Social media */
+/* ---------- SOCIAL MEDIAS ---------- */
 .social a {
     font-size: 4em;
     padding: 3rem;
@@ -133,7 +147,7 @@ p.lead {
     color: crimson;
 }
 
-/* Footer */
+/* ---------- FOOTER ---------- */
 footer {
     background-color: #333;
     color: #d5d5d5;
@@ -159,7 +173,7 @@ footer a {
 
 }
 
-/* PORTFOLIO */
+/* ---------- PORTFOLIO ---------- */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -179,9 +193,9 @@ footer a {
   }
 
 
-/* Media queries */
+/* ---------- ALL MEDIA QUERIES ---------- */
 
-/* PORTFOLIO */
+/* ---------- PORTFOLIO ---------- */
 @media screen and (max-width: 1000px) {
     .column {
       flex: 50%;
@@ -196,7 +210,7 @@ footer a {
     }
 }
 
-/* OTHERS */
+/* ---------- OTHERS ---------- */
 @media (max-width: 992px) {
     social a {
         font-size: 3.5em;

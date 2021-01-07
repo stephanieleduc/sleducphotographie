@@ -51,15 +51,10 @@
     </nav>
 
     <!--- Image Slider -->
-    <div id="slides" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#slides" data-slide-to="0" class="active"></li>
-            <li data-target="#slides" data-slide-to="1"></li>
-            <li data-target="#slides" data-slide-to="2"></li>
-        </ul>
+    <div id="slides" class="carousel slide" data-ride="carousel" data-interval="6500">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/carousel1.jpg">
+                <img src="images/carousel1.jpg" alt="Photo maternité">
                 <div class="carousel-caption">
                     <h1 class="display-2 caladea">S.Leduc</h1>
                     <h3>Photographe</h3>
@@ -75,6 +70,12 @@
                 <img src="images/carousel3.jpg">
             </div>
         </div>
+        <a href="#slides" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="fas fa-chevron-left fa-2x"></span>
+        </a>
+        <a href="#slides" class="carousel-control-next" role="button" data-slide="next">
+            <span class="fas fa-chevron-right fa-2x"></span>
+        </a>
     </div>
 
     <!--- Jumbotron -->
