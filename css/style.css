@@ -35,10 +35,10 @@ p.lead {
     font-size: 1.2em;
 }
 
-.content {
+/*.content {
     position: absolute;
     top: 0px;
-}
+}*/
 
 /* ---------- NAVBAR ---------- */
 .navbar{
